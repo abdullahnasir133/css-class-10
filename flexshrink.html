@@ -1,0 +1,54 @@
+
+<html lang="en">
+    <head>
+        <title>flex basis</title>
+        <style>
+            body{font-family: Arial, Helvetica, sans-serif;}
+            h1{padding: 0 0 0 40px;}
+            .container{
+                background: #eee;
+               
+                margin: 50px;
+                padding: 0px;
+                border: 3px solid black; 
+                
+               
+                display: flex;
+               
+                
+
+            }
+            .item1{background: orangered;flex-shrink: 1;
+            flex-basis: 200px;
+        /*flex: grow shrink 200px; short hand of grow shrink then basis it may also auto because it is default velue */}
+            .item2{background: yellowgreen;}
+            .item3{background: mediumpurple;
+            }
+         
+            .item4{background: orange; }
+           
+            
+            .items{
+                color: #fff;
+                font-size: 20px;
+                font-weight:
+                bold;text-align: center;
+                padding: 0px; margin:0px ;
+                height: 60px;
+                width: 200px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>flex-box order</h1> 
+        <div class="container">
+        <div class="items item1">one</div>
+        <div class="items item2">Two</div>
+        <div class="items item3">Three </div>
+        <div class="items item4">Four</div>
+       
+        </div>
+ 
+</body>
+</html>

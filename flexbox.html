@@ -1,0 +1,40 @@
+<!--new module in css 3 easy to align and elements in different direction and orders
+Flexbox is to gives container the ability to expand and shrink elements to best use all available space
+css flexbox layout replaces float layout 
+new way to build one dimensional layout 
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Grid auto fit and fill</title>
+        <style>
+            body{font-family: Arial, Helvetica, sans-serif;}
+            h1{padding: 0 0 0 40px;}
+            .container{
+                background: #eee;
+                width: 600px;
+                margin: 50px auto 0;
+                padding: 10px;
+                border: 3px solid black; 
+
+                display: flex;
+            
+            }
+            .item1{background: orangered; order: 1;}
+            .item2{background: yellowgreen;}
+            .item3{background: mediumpurple;
+         }
+            .item4{background: hotpink;}
+            
+            .items{color: #fff; font-size: 20px; font-weight: 5px;
+            }
+        </style>
+    </head>
+    <body> <div class="container">
+        <div class="items item1">one</div>
+        <div class="items item2">Two</div>
+        <div class="items item3">Three 1</div>
+        <div class="items item4">Four</div>
+ 
+</body>
+</html>
